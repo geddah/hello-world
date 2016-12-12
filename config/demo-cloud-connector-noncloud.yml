@@ -1,14 +1,11 @@
----
-lucky-word: Harsha Priya!
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/world
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
-    testWhileIdle: true
-    type: javax.sql.DataSource
   jpa:
+    database: mysql
     show-sql: true
     properties:
       hibernate:
