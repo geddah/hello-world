@@ -10,3 +10,6 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5Dialect
+  data:
+    mongodb:
+      uri: mongodb://CloudFoundry_oa5gu9re_8sdv1031_udd9lqd8:Qdge59mVEoZC2JL1iPryXBMdpcKMMcq2@ds133348.mlab.com:33348/CloudFoundry_oa5gu9re_8sdv1031
