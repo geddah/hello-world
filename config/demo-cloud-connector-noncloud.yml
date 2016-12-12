@@ -1,6 +1,6 @@
 spring:
   cloud:
-    database: org.springframework.cloud.localconfig.MongoServiceInfoCreator, org.springframework.cloud.localconfig.MysqlServiceInfoCreator
+    database: jdbc:mysql://localhost:3306/world
   datasource:
     url: jdbc:mysql://localhost:3306/world
     username: root
