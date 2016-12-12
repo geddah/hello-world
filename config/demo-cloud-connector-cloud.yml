@@ -1,5 +1,2 @@
 ---
-spring:
-  cloud:
-    config:
-      uri: https://demo-cloud-config.cfapps.io
+lucky-word: Harsha Priya
