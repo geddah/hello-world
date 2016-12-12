@@ -7,6 +7,7 @@ spring:
       password: root
       driver-class-name: com.mysql.jdbc.Driver
       testWhileIdle: true
+      type: javax.sql.DataSource
     jpa:
       show-sql: true
       properties:
