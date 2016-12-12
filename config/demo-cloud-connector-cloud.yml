@@ -1,0 +1,5 @@
+---
+spring:
+  cloud:
+    config:
+      uri: https://demo-cloud-config.cfapps.io
