@@ -2,7 +2,7 @@ spring:
   cloud:
     database: jdbc:mysql://localhost:3306/world
   datasource:
-    url: jdbc:mysql://localhost:3306/world
+    url: jdbc:mysql://localhost:3306/sakila
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
